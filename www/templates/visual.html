@@ -1,0 +1,41 @@
+<ion-view view-title="Users Visualization" ng-controller="VisualCtrl">
+  <ion-content>
+    <ion-slide-box>
+      <ion-slide>
+        <div class="card">
+          <div class="item item-divider">
+            Line Chart
+          </div>
+          <div class="item item-text-wrap">
+            <canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-legend="true" chart-series="series" chart-click="onClick" options="{showToolTips: false}" >
+            </canvas> 
+          </div>
+        </div>
+      </ion-slide>
+
+      <ion-slide>
+        <div class="card">
+          <div class="item item-divider">
+            Bar Chart
+          </div>
+          <div class="item item-text-wrap">
+            <canvas id="line" class="chart chart-bar" chart-data="data" chart-labels="labels" chart-legend="true" chart-series="series" chart-click="onClick" options="{showToolTips: false}" >
+            </canvas> 
+          </div>
+        </div>
+      </ion-slide>
+      
+      <ion-slide>
+        <div class="card">
+          <div class="item item-divider">
+            Pie Chart
+          </div>
+          <div class="item item-text-wrap">
+            <canvas id="pie" class="chart chart-pie"chart-data="pie_data" chart-labels="labels">
+            </canvas>  
+          </div>
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+  </ion-content>
+</ion-view>
