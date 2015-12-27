@@ -6,7 +6,7 @@
 
 (function(){
 
-  app = angular.module('UserDirectory', ['ionic', 'UserDirectory.userstore', 'chart.js']);
+  app = angular.module('UserDirectory', ['ionic', 'UserDirectory.userstore', 'chart.js', 'components']);
 
   app.config(function($stateProvider, $urlRouterProvider){
 
