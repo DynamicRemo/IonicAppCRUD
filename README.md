@@ -1,5 +1,5 @@
 # IonicAppCRUD
-IONIC Framework App<a href="http://dynamicremo.blogspot.de/2015/12/app-with-crud-functionality-user.html">[Tutorial]</a> with CRUD Functionality and Visual Representation of Data - User Management
+IONIC Framework App <a href="http://dynamicremo.blogspot.de/2015/12/app-with-crud-functionality-user.html">[Tutorial]</a> with CRUD Functionality and Visual Representation of Data - User Management
 <br>
 <br>
 <div style="text-align: center;">
